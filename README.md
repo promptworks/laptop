@@ -22,7 +22,7 @@ terminal and then click "Install".
 Read, then run the script:
 
 ```sh
-bash <(curl -s https://raw.github.com/attack/laptop/master/mac)
+bash <(curl -s https://raw.githubusercontent.com/promptworks/laptop/master/mac)
 ```
 
 ## What it sets up
@@ -52,9 +52,8 @@ bash <(curl -s https://raw.github.com/attack/laptop/master/mac)
 * Flux
 * iTerm2
 * vim + MacVim
-* ShiftIt for window management
 * solarized colour theme for terminal + iTerm
-* [dotfiles](https://github.com/attack/dotfiles)
+* [dotfiles](https://github.com/promptworks/dotfiles)
 
 It should take less than 15 minutes to install (depends on your machine).
 
@@ -84,6 +83,7 @@ defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 ## Credits
 
 [thoughbot laptop](https://github.com/thoughtbot/laptop)
+[attack laptop](https://github.com/attack/laptop)
 
 ## License
 

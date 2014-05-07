@@ -34,9 +34,6 @@ brew_cask_link() {
 fancy_echo "Installing Alfred, for quick access to Facebook ..."
   brew_cask_install alfred
 
-fancy_echo "Installing Caffeine, to fend off sleep ..."
-  brew_cask_install caffeine
-
 fancy_echo "Installing Google Chrome, you know you want it ..."
   brew_cask_install google-chrome
 
